@@ -1,35 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@JebachTwT 
-Neonx99
-/
-agar.io-bots-extension
-2
-1348
-Code
-Issues
-2
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-agar.io-bots-extension/au.js /
-@Neonx99
-Neonx99 Update au.js
-Latest commit 272c14f on 14 Dec 2020
- History
- 2 contributors
-@Neonx99@xN3BULA
-560 lines (486 sloc)  20.8 KB
   
 function editCore(core) {
     core = core.replace(/;if\((\w)<1\.0\){/i, ';if($1<0){');
@@ -591,16 +560,5 @@ class Bot {
         return e;
     }
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
+
